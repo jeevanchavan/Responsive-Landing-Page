@@ -341,6 +341,51 @@ main section.view5 .card3 .bottom p {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+main section.view6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+main section.view6 .top {
+  width: 100%;
+}
+main section.view6 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section.view6 .bottom {
+  color: #f4f2ed;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: rgba(40, 40, 40, 0.594);
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+main section.view6 .bottom p {
+  opacity: 0.6;
+}
+main section.view6 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+main section.view6 .bottom .text h4 {
+  font-size: 2.5rem;
+  font-weight: 350;
+  line-height: 1;
+  text-transform: uppercase;
+}
+main section.view6 .bottom .text button {
+  outline: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.8rem;
+  font-weight: 700;
+  border-radius: 0.7rem;
+}
 
 @media (min-width: 960px) {
   main section.view1 {
@@ -427,5 +472,32 @@ main section.view5 .card3 .bottom p {
   }
   main section.view5 {
     flex-direction: row;
+  }
+  main section.view6 {
+    flex-direction: row;
+  }
+  main section.view6 .top, main section.view6 .bottom {
+    width: 50%;
+  }
+  main section.view6 .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 4rem;
+  }
+  main section.view6 .bottom p {
+    font-size: 0.9rem;
+  }
+  main section.view6 .bottom .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+  main section.view6 .bottom .text h4 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  main section.view6 .bottom .text button {
+    padding: 0.7rem 1.3rem;
   }
 }/*# sourceMappingURL=style.css.map */
